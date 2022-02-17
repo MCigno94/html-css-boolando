@@ -54,8 +54,59 @@ img {
 /* Action
 **********/
 
+.product:hover #hover-img1 {
+    visibility: hidden;
+  }
 
+  .product:hover .first {
+    background-image: url(../img/1b.webp);
+    background-size: cover;
+  }
 
+  .product:hover #hover-img2 {
+    visibility: hidden;
+  }
+
+  .product:hover .second {
+    background-image: url(../img/2b.webp);
+    background-size: cover;
+  }
+
+  .product:hover #hover-img3 {
+    visibility: hidden;
+  }
+
+  .product:hover .third {
+    background-image: url(../img/3b.webp);
+    background-size: cover;
+  }
+
+  .product:hover #hover-img4 {
+    visibility: hidden;
+  }
+
+  .product:hover .fourth {
+    background-image: url(../img/4b.webp);
+    background-size: cover;
+  }
+
+  .product:hover #hover-img5 {
+    visibility: hidden;
+  }
+
+  .product:hover .fifth {
+    background-image: url(../img/5b.webp);
+    background-size: cover;
+  }
+
+  .product:hover #hover-img6 {
+    visibility: hidden;
+  }
+
+  .product:hover .sixth {
+    background-image: url(../img/6b.webp);
+    background-size: cover;
+  }
 
 /* Body
 ********/
