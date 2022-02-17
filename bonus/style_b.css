@@ -165,6 +165,7 @@ header{
 
 main {
     background-color: var(--primary-color);
+    position: relative;
 }
 
 .line-products {
@@ -203,5 +204,22 @@ main {
 
 }
 
+.up.button {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+}
+
 /* Footer
 **********/
+
+footer {
+    background-color: var(--header-color);
+}
+
+.logo-text-footer {
+    height: 90px;
+    width: auto;
+    display: inline-block;
+    font-size: 2rem;
+}
