@@ -148,6 +148,9 @@ header{
 #nav_site {
     background-color: var(--header-color);
     margin: auto;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 .button{
