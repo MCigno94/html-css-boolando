@@ -8,17 +8,145 @@
     box-sizing: border-box;
 }
 
+hr {
+    border: 1px solid var(--primary-color);
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
 /* Variables
 *************/
-
+:root {
+    --primary-color:#001aff15;
+    --header-color: #c4eec33d;
+    --green_label-color: green;
+    --red_label-color: red;
+}
 
 /* Utilities 
 *************/
 
+.alignment {
+    vertical-align: middle;
+    text-align: center;
+}
 
-/* Body
-********/
+.labels {
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+}
 
+.bg_green {
+    background-color: var(--green_label-color);
+    padding: 0.25rem;
+}
+
+.bg_red {
+    background-color: var(--red_label-color);
+    padding: 0.25rem;
+}
+
+
+/* Action
+**********/
+
+.product:hover #hover-img1 {
+    visibility: hidden;
+  }
+
+  .product:hover .first {
+    background-image: url(img/1b.webp);
+    background-size: cover;
+  }
+
+  .product:hover #hover-img2 {
+    visibility: hidden;
+  }
+
+  .product:hover .second {
+    background-image: url(img/2b.webp);
+    background-size: cover;
+  }
+
+  .product:hover #hover-img3 {
+    visibility: hidden;
+  }
+
+  .product:hover .third {
+    background-image: url(img/3b.webp);
+    background-size: cover;
+  }
+
+  .product:hover #hover-img4 {
+    visibility: hidden;
+  }
+
+  .product:hover .fourth {
+    background-image: url(img/4b.webp);
+    background-size: cover;
+  }
+
+  .product:hover #hover-img5 {
+    visibility: hidden;
+  }
+
+  .product:hover .fifth {
+    background-image: url(img/5b.webp);
+    background-size: cover;
+  }
+
+  .product:hover #hover-img6 {
+    visibility: hidden;
+  }
+
+  .product:hover .sixth {
+    background-image: url(img/6b.webp);
+    background-size: cover;
+  }
 
 /* Main
 ********/
+
+main {
+    position: relative;
+}
+
+.line-products {
+    margin: 0 auto;
+  }
+  
+.product {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.img_product {
+    position: relative;
+}
+
+.discount {
+    display:inline-block;
+}
+
+.sustainability {
+    display:inline-block;
+}
+
+.like {
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.description {
+    text-align: left;
+
+}
